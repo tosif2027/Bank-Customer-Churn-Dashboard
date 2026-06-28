@@ -146,15 +146,18 @@ for name, model in models.items():
 # ==========================================================
 # SAVE MODEL
 # ==========================================================
+import joblib
 
 joblib.dump(
     best_model,
-    "model.pkl"
+    "model.pkl",
+    compress=3
 )
 
 joblib.dump(
     scaler,
-    "scaler.pkl"
+    "scaler.pkl",
+    compress=3
 )
 
 print("=" * 60)
