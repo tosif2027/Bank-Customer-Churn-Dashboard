@@ -1,0 +1,19 @@
+# Machine Learning Model Files
+model.pkl
+scaler.pkl
+
+# Python Cache
+__pycache__/
+*.pyc
+
+# Virtual Environment
+venv/
+.venv/
+env/
+
+# VS Code Settings
+.vscode/
+
+# Operating System Files
+.DS_Store
+Thumbs.db
